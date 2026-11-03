@@ -4,19 +4,19 @@
 
 **狩人 (かりゅーど) の少女**が主人公のファミコン(NES)**横スクロールアクションゲーム**。6502 アセンブラ (ca65) でフルスクラッチ開発するプロジェクトです。[Claude Code](https://claude.com/claude-code) (Fable 5) と一緒にステップバイステップで作っていきます。
 
-## ▶ [ブラウザで遊ぶ](https://goroman.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/GOROman/calude-famicom-game/main/roms/50-coin-shine.nes)
+## ▶ [ブラウザで遊ぶ](https://mowthow-works.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/mowthow-works/calude-famicom-game/main/roms/50-coin-shine.nes)
 
 *(最新版: roms/50-coin-shine.nes — cluade-famicom-emu で直接ブート)*
 
-**🛠 [ステージエディタ](https://goroman.github.io/calude-famicom-game/editor/)** — ブラウザでステージを編集。URLがセーブデータになり、改造 .nes を書き出してそのまま遊べます
+**🛠 [ステージエディタ](https://mowthow-works.github.io/calude-famicom-game/editor/)** — ブラウザでステージを編集。URLがセーブデータになり、改造 .nes を書き出してそのまま遊べます
 
-**🎨 [PNG→CGROM 変換ツール](https://goroman.github.io/calude-famicom-game/tools/png2chr/)** — 画像を NES の CHR データ (.byte / .chr) と 4色パレットに変換
+**🎨 [PNG→CGROM 変換ツール](https://mowthow-works.github.io/calude-famicom-game/tools/png2chr/)** — 画像を NES の CHR データ (.byte / .chr) と 4色パレットに変換
 
-**🖌 [CHR-ROM エディタ](https://goroman.github.io/calude-famicom-game/tools/chredit/)** — ROM のタイルグラフィックをブラウザでドット編集。1〜4キー+スペースのキーボード操作、UNDO、アニメーションチェック付き。改造 .nes を書き出してそのまま遊べます
+**🖌 [CHR-ROM エディタ](https://mowthow-works.github.io/calude-famicom-game/tools/chredit/)** — ROM のタイルグラフィックをブラウザでドット編集。1〜4キー+スペースのキーボード操作、UNDO、アニメーションチェック付き。改造 .nes を書き出してそのまま遊べます
 
-**🎞 [アニメーションプレイヤー](https://goroman.github.io/calude-famicom-game/tools/animplay/)** — 動画から切り出したフレーム (少女狩人 13コマ) を、コマ選択+フレームレート指定でループ再生。URLが保存データ
+**🎞 [アニメーションプレイヤー](https://mowthow-works.github.io/calude-famicom-game/tools/animplay/)** — 動画から切り出したフレーム (少女狩人 13コマ) を、コマ選択+フレームレート指定でループ再生。URLが保存データ
 
-**👁 [目パチエディタ](https://goroman.github.io/calude-famicom-game/tools/blinkedit/)** — タイトル画面の目パチ (閉じ目/半目/白目) をドット単位で編集、実機同様のプレビュー付き。JSON を `tools/apply_blink.py` でアセットに反映
+**👁 [目パチエディタ](https://mowthow-works.github.io/calude-famicom-game/tools/blinkedit/)** — タイトル画面の目パチ (閉じ目/半目/白目) をドット単位で編集、実機同様のプレビュー付き。JSON を `tools/apply_blink.py` でアセットに反映
 
 動作確認には自作 WASM エミュレータ [cluade-famicom-emu](https://github.com/GOROman/cluade-famicom-emu) を使用。
 
@@ -50,7 +50,7 @@ make clean
 ```
 
 `make run` 後、ブラウザの「ROMを開く」から `game.nes` を読み込むと起動します。
-([Web版エミュレータ](https://goroman.github.io/cluade-famicom-emu/) に直接読み込んでもOK)
+([Web版エミュレータ](https://mowthow-works.github.io/cluade-famicom-emu/) に直接読み込んでもOK)
 
 ## 操作方法
 

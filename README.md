@@ -4,19 +4,19 @@
 
 A **side-scrolling action game for the NES (Famicom)** starring a young **huntress**, built from scratch in 6502 assembly (ca65). Developed step by step together with [Claude Code](https://claude.com/claude-code) (Fable 5).
 
-## ▶ [PLAY IN YOUR BROWSER](https://goroman.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/GOROman/calude-famicom-game/main/roms/50-coin-shine.nes)
+## ▶ [PLAY IN YOUR BROWSER](https://mowthow-works.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/mowthow-works/calude-famicom-game/main/roms/50-coin-shine.nes)
 
 *(latest build: roms/50-coin-shine.nes — boots directly in the cluade-famicom-emu WASM emulator)*
 
-**🛠 [Stage Editor](https://goroman.github.io/calude-famicom-game/editor/)** — edit stages in the browser. The URL *is* the save data, and you can export a modified .nes and play it right away
+**🛠 [Stage Editor](https://mowthow-works.github.io/calude-famicom-game/editor/)** — edit stages in the browser. The URL *is* the save data, and you can export a modified .nes and play it right away
 
-**🎨 [PNG → CHR Converter](https://goroman.github.io/calude-famicom-game/tools/png2chr/)** — convert images into NES CHR data (.byte / .chr) with 4-color palettes
+**🎨 [PNG → CHR Converter](https://mowthow-works.github.io/calude-famicom-game/tools/png2chr/)** — convert images into NES CHR data (.byte / .chr) with 4-color palettes
 
-**🖌 [CHR-ROM Editor](https://goroman.github.io/calude-famicom-game/tools/chredit/)** — pixel-edit the ROM's tile graphics in the browser. Keyboard-driven (1–4 keys + space), with undo, save/load, and an animation checker. Export a modified .nes and play it
+**🖌 [CHR-ROM Editor](https://mowthow-works.github.io/calude-famicom-game/tools/chredit/)** — pixel-edit the ROM's tile graphics in the browser. Keyboard-driven (1–4 keys + space), with undo, save/load, and an animation checker. Export a modified .nes and play it
 
-**🎞 [Animation Player](https://goroman.github.io/calude-famicom-game/tools/animplay/)** — loop-play frames extracted from video (13 frames of the huntress) with frame selection and adjustable FPS; the URL is the save data
+**🎞 [Animation Player](https://mowthow-works.github.io/calude-famicom-game/tools/animplay/)** — loop-play frames extracted from video (13 frames of the huntress) with frame selection and adjustable FPS; the URL is the save data
 
-**👁 [Blink Editor](https://goroman.github.io/calude-famicom-game/tools/blinkedit/)** — pixel-edit the title screen's eye-blink frames with a hardware-accurate preview. Apply the JSON to the assets with `tools/apply_blink.py`
+**👁 [Blink Editor](https://mowthow-works.github.io/calude-famicom-game/tools/blinkedit/)** — pixel-edit the title screen's eye-blink frames with a hardware-accurate preview. Apply the JSON to the assets with `tools/apply_blink.py`
 
 Verification is done on the homemade WASM emulator [cluade-famicom-emu](https://github.com/GOROman/cluade-famicom-emu). (The spellings *calude* / *cluade* are intentional.)
 
@@ -50,7 +50,7 @@ make clean
 ```
 
 After `make run`, load `game.nes` via "Open ROM" in the browser.
-(You can also load it directly into the [web emulator](https://goroman.github.io/cluade-famicom-emu/).)
+(You can also load it directly into the [web emulator](https://mowthow-works.github.io/cluade-famicom-emu/).)
 
 ## Controls
 
